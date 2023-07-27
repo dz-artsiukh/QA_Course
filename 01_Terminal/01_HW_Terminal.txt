@@ -1,0 +1,101 @@
+01_HoWork
+
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я: 
+	pwd
+2) Создать папку:
+	mkdir 01hw
+3) Зайти в папку: 
+	cd 01hw
+4) Создать 3 папки: 
+	mkdir f1 f2 f3   OR  mkdir {1, f2, f3}   OR   mkdir f{1..3}
+5) Зайти в любую папку:
+	cd f1
+6) Создать 5 файлов (3 txt, 2 json):
+	touch text{1..3}.txt info{1..2}.json
+7) Создать 3 папки:
+	mkdir subf{1..3}
+8. Вывести список содержимого папки:
+	ls -la
+9) + Открыть любой txt файл
+	cat text1.txt
+10) + написать туда что-нибудь, любой текст
+	cat > text1.txt
+	"Hi..."
+11) + сохранить и выйти 
+	Ctrl + D
+12) Выйти из папки на уровень выше
+	cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку
+	mv f1/text1.txt f1/text2.txt f2
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+	cp f1/text3.txt f1/info1.json f3
+15) Найти файл по имени
+	find . -name "text" OR find . -name text1.txt
+	
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+	tail -f f1/text1.txt | grep -i -C 2  "word"
+17) вывести несколько первых строк из текстового файла
+	head -n 3 f1/res.txt
+18) вывести несколько последних строк из текстового файла
+	tail -n 3 f1/res.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+	less -n3 f1/res.txt
+20) вывести дату и время
+	date
+	
+=========
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+
+# REQUEST #1:
+	curl http://162.55.220.72:5006/terminal-hw-request
+
+# RESPONSE #1
+
+"Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+	
+# REQUEST #2
+	curl 'http://162.55.220.72:5005/get_method?name=Dennis&age=37'                                                                 
+
+# RESPONSE #2
+
+[
+  "Denis",
+  "37"
+]
+ 
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+	touch script.sh
+	cat > script.sh
+
+# Add following sequence:
+	
+	#!/bin/bash
+	cd scriptest
+	mkdir 01hw_script
+	cd 01hw_script
+	mkdir f{1..3}
+	cd f1
+	touch text{1..3}.txt info{1..2}.json
+	mkdir subf{1..3}
+	ls -la
+	mv text1.txt text2.txt ../f2
+	
+	Ctrl + D
+	bash script.sh
+
+------------------
