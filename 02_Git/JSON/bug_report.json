@@ -1,0 +1,23 @@
+{
+	"bug report": {
+		"ID": 1,
+		"Severity": "Minor",
+		"Environment": "MacOS Ventura 13.4.1 Chrome 114",
+		"Title": "[Become a partner] button on 'Our partners' page in [أكثر] ([More]) menu isn't translated when selected langauge is AR",
+		"Steps": [{
+			"1.": "Navigate to capital.com",
+			"2.": "Select AR language",
+			"3.": "Hover over [أكثر] ([More]) menu",
+			"4.": "Click on menu item [شركاؤنا] ([Our partners])",
+			"Note": "Note: The bug is also reproduced for the mobile"
+		}],
+		"Expected result": "[Become a partner] button is translated to AR",
+		"Actual result": "[Become a partner] button isn't translated to AR",
+		"License": "ALL",
+		"Role": "ALL",
+		"Link": "https://drive.google.com/file/d/1-9NZu1E58CC2n3l2r1bDMtY6V7-I92Ru/view?usp=sharing",
+		"Bug started": "@ideear",
+		"Bug reproduced": "",
+		"But didn't reproduce": ""
+	}
+}

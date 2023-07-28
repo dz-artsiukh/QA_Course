@@ -1,0 +1,9 @@
+{
+	"skills":{
+		"skill 1": "terminal",
+		"skill 2": "git",
+		"skill 3": "HTTP requests",
+		"skill 4": "testing of mobile applications",
+		"skill 5": "testing of web-sites"
+		}
+}
