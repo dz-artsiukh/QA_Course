@@ -7,3 +7,6 @@
 [submodule "02_Git/01_HW_Git_repos/XML"]
 	path = 02_Git/01_HW_Git_repos/XML
 	url = https://github.com/dz-artsiukh/XML.git
+[submodule "02_Git/01_HW_Git_repos/TXT"]
+	path = 02_Git/01_HW_Git_repos/TXT
+	url = https://github.com/dz-artsiukh/TXT.git
