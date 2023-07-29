@@ -1,3 +1,6 @@
 [submodule "02_Git/02_Git_Branches"]
 	path = 02_Git/02_Git_Branches
 	url = https://github.com/dz-artsiukh/02_Git_Branches.git
+[submodule "02_Git/01_HW_Git_repos/JSON"]
+	path = 02_Git/01_HW_Git_repos/JSON
+	url = https://github.com/dz-artsiukh/JSON.git
