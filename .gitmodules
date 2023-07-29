@@ -4,3 +4,6 @@
 [submodule "02_Git/01_HW_Git_repos/JSON"]
 	path = 02_Git/01_HW_Git_repos/JSON
 	url = https://github.com/dz-artsiukh/JSON.git
+[submodule "02_Git/01_HW_Git_repos/XML"]
+	path = 02_Git/01_HW_Git_repos/XML
+	url = https://github.com/dz-artsiukh/XML.git
