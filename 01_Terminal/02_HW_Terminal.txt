@@ -51,7 +51,7 @@ Termial. HW_2
 16. Вывести список всех файлов в папке.
 	ls -la
 17. Выйти из папки inner_dir_1
-	cdd ..
+	cd ..
 18. Вывести содержимое файла tf_3.txt в терминал.
 	cat inner_dir_1/tf_3.txt
 19. Найти путь к файлу tf_4.txt
@@ -68,40 +68,55 @@ Termial. HW_2
 22. Найти путь к файлам у которых есть  “tf” в названии и буквы в любом регистре.
 	find . -iname "*tf*"
 23. Найти строки в файлах где есть комбинация букв “sec” в текущей папке
-	grep sec *
+	grep sec * (only in this folder)
+	grep -r sec .(+ subfolders)
 24. Найти строки в файлах где есть комбинация букв “sec” в любом регистре в текущей папке
-	grep -i sec *
+	grep -i sec * (only this folder)
+	grep -i -r "sec" (+ subfolders)
 25. Найти строки в файлах где есть только комбинация букв “sec” в текущей папке
 	grep -w sec *
+	grep -r -w sec
 26. Найти строки в файлах где есть только комбинация букв “sec” в любом регистре в текущей папке
 	grep -iw sec *
+	grep -irw "sec"
 27. Найти строки в файлах где есть комбинация букв “second” в текущей папке
 	grep second *
+	grep -r "second"
 28. Найти строки в файлах где есть комбинация букв “second” в любом регистре в текущей папке
 	grep -i second *
+	grep -ir "second"
 29. Найти строки в файлах где есть комбинация букв “second” во всех папках ниже уровнем
-	grep -r second .
+	grep -r second (to find in all subdirectories)
+	grep -r "second" */* (to find file one level lower)
+	grep -r "second" */* (to find file in folders one level up)
 30. Найти только путь и название файла в строках которых есть комбинация букв “second” в текущей папке
 	grep -l second * 
+	grep -l -r second
 31. Найти все строки во всех файлах где нет комбинации “second”
-	grep -l -v second *
+	grep -v second *
+	grep -rv second
 32. Найти только название и путь к файлам где нет комбинации “second”
-	grep -l -v second *
+	grep -L second * (only in this folder without subfolders)
+	grep -rL second (+subfolders)
 33. Вывести в терминал 4 последних строк любого текстового файла
-	tail -n inner_dir_1/tF_5.txt
+	tail -n 4 inner_dir_1/tF_5.txt
 34. Вывести в терминал 4 первые строки любого текстового файла.
 	head -n 4 inner_dir_1/tF_5.txt
-35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым.
+35. Команда в одну строку. Создать папку и создать текстовый файл с содержимым.
 	mkdir inner_dir_2 && echo "Some text" > inner_dir_2/some_text.txt
 36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
-	mv $(grep -lr sec *) inner_dir_2
+	mv $(grep -lr sec) inner_dir_2
+	OR
+	grep -rl "sec" | xargs -I{} mv {} inner_dir_2
 37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
-	cp $(grep -lr sec .) inner_dir_3
+	cp $(grep -lr sec) inner_dir_3
 38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный 
 текстовый файл.
-	grep -r sec . > sec_log.txt
+	grep -rh sec > sec_log.txt
 39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”
-	rm $(grep -lr sec .)
+	rm $(grep -lr sec)
 40. Просто вывести в терминал строку “Good job!!”
 	echo 'Good job!!'
+	OR
+	echo Good job\!!
 
