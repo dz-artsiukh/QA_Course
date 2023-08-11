@@ -10,7 +10,7 @@
 JSON
 4. Создать внешний репозиторий c названием JSON.
 	-> в главном окне нажимаем кнопку 'new', пишем название нового репозитория, отмечаем Public + readme, 
-	--> нажимаем 'Create repositoty'
+	--> нажимаем 'Create repository'
 5. Клонировать репозиторий JSON на локальный компьютер.
 	-> в созданном репозитории жмем кнопку 'Clone' и копируем ссылку 
 	--> затем в терминале пишем 'git clone https://github.com/dz-artsiukh/JSON.git'
@@ -102,7 +102,7 @@ JSON
                 "Link": "https://drive.google.com/file/d/1-9NZu1E58CC2n3l2r1bDMtY6V7-I92Ru/view?usp=sharing",
                 "Bug started": "@ideear",
                 "Bug reproduced": "",
-                "But didn't reproduce": ""
+                "Bug didn't reproduce": ""
                 }
 }
 
@@ -251,7 +251,7 @@ TXT
 	-> git push
  14. На веб интерфейсе создать файл bug_report.txt. 
 	-> нажать "Create new file"
-	--> ввести имя файла "but_report.txt" 
+	--> ввести имя файла "bug_report.txt" 
 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 	-> нажать кнопку "Commit changes"
 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
