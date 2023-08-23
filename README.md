@@ -5,5 +5,5 @@
 - [Git](https://github.com/dz-artsiukh/QA_Course/tree/main/02_Git)
 - [Postman](https://github.com/dz-artsiukh/QA_Course/tree/main/03_Postman)
 - [JavaScript](https://github.com/dz-artsiukh/QA_Course/tree/main/04_JS)
-- [SQL]()
+- [SQL](https://github.com/dz-artsiukh/QA_Course/tree/main/05_SQL)
 - [DevTools]()
