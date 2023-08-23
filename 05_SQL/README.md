@@ -1,0 +1,3 @@
+- [Homework #1](https://github.com/dz-artsiukh/QA_Course/tree/main/05_SQL/01_HW_SQL)
+- [Homework #2](https://github.com/dz-artsiukh/QA_Course/tree/main/05_SQL/02_HW_SQL)
+- [Homework #3](https://github.com/dz-artsiukh/QA_Course/tree/main/05_SQL/03_HW_SQL)
