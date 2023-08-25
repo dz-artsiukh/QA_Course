@@ -141,4 +141,10 @@
 4. Потребление ресурсов приложением (например расход заряда батареи)
 ```
 
+
+### Mind-map основных проверок
   ![image](https://github.com/dz-artsiukh/QA_Course/assets/117485665/64525720-8ed3-4d61-8265-74a38bc3aba9)
+
+
+### Mind-map по ISTQB
+![image](https://github.com/dz-artsiukh/QA_Course/assets/117485665/fbb1846c-7ee5-488c-83f5-c85dfe34611f)
