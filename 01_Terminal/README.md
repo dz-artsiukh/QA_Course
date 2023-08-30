@@ -1,3 +1,5 @@
+## Passed! <span style="color:blue">some *green* text</span>.
+
 ![Dzianis Artsiukh_Terminal](https://github.com/dz-artsiukh/QA_Course/assets/117485665/fb4fb336-5444-4501-aafb-8fe064a91870)
 
 
