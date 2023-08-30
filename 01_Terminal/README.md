@@ -1,3 +1,6 @@
+![Dzianis Artsiukh_Terminal](https://github.com/dz-artsiukh/QA_Course/assets/117485665/fb4fb336-5444-4501-aafb-8fe064a91870)
+
+
 ## 01_HomeWork: Terminal (GitBash)
 **1. See the current working directory path**
 ```
