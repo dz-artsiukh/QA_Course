@@ -3,8 +3,8 @@
 ### **Таблица employees**
 
 ### 1) Создать таблицу employees
-  - id. serial,  primary key,
-  - employee_name. Varchar(50), not null
+  - id serial,  primary key,
+  - employee_name Varchar(50), not null
 
 ```
 CREATE TABLE employees (
@@ -92,8 +92,8 @@ VALUES
 ## Таблица salary
 
 ### 3) Создать таблицу salary
-  - id. Serial  primary key,
-  - monthly_salary. Int, not null
+  - id Serial  primary key,
+  - monthly_salary Int, not null
 ```
 CREATE TABLE salary (
 	id serial PRIMARY KEY,
@@ -126,9 +126,9 @@ VALUES
 ## Таблица employee_salary
 
 ### 5) Создать таблицу employee_salary
-- id. Serial  primary key,
-- employee_id. Int, not null, unique
-- salary_id. Int, not null
+- id Serial  primary key,
+- employee_id Int, not null, unique
+- salary_id Int, not null
 
 ```
 CREATE TABLE employee_salary (
@@ -199,8 +199,8 @@ VALUES
 ## Таблица roles
 
 ### 7) Создать таблицу roles
-  - id. Serial  primary key,
-  - role_name. int, not null, unique
+  - id Serial  primary key,
+  - role_name int, not null, unique
 
 ```
 CREATE TABLE roles (
@@ -244,9 +244,9 @@ VALUES
 ## Таблица roles_employee
 
 ### 10) Создать таблицу roles_employee
-  - id. Serial  primary key,
-  - employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
-  - role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+  - id Serial  primary key,
+  - employee_id Int, not null, unique (внешний ключ для таблицы employees, поле id)
+  - role_id Int, not null (внешний ключ для таблицы roles, поле id)
 
 ```
 CREATE TABLE roles_employee (
