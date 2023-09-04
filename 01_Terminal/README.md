@@ -1,6 +1,8 @@
 ## Certificate received!
 
-![Dzianis Artsiukh_Terminal](https://github.com/dz-artsiukh/QA_Course/assets/117485665/fb4fb336-5444-4501-aafb-8fe064a91870)
+<div align="left">
+  <img src="https://github.com/dz-artsiukh/dz-artsiukh/assets/117485665/d2c1dfcc-9407-46a2-b0c6-fc44fac8dfa9" width="300" height="200"/>
+</div>
 
 
 ## 01_HomeWork: Terminal (GitBash)
