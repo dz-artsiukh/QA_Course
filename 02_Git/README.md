@@ -4,4 +4,6 @@
 - [Homework #2](https://github.com/dz-artsiukh/02_Git_Branches/tree/main)
 
 ## Certificate received!
-![image](https://github.com/dz-artsiukh/QA_Course/assets/117485665/eb34a5f8-f90b-4db5-b5a1-c8c9da8d13d6)
+<div align="left">
+ <img src="https://github.com/dz-artsiukh/dz-artsiukh/assets/117485665/44492829-8541-4ecd-9485-707ef4daa4f9" width="300" height="200"/>
+</div>
