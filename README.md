@@ -1,4 +1,4 @@
-#### Here you can find various my completed homework assignments across different areas of study.
+#### Here you can find my various completed homework assignments across different areas of study.
 
 #### Homework Assignments:
 - [Terminal](https://github.com/dz-artsiukh/QA_Course/tree/main/01_Terminal)
